@@ -1,0 +1,19 @@
+[package]
+name = "sudoku_solver"
+version = "0.1.0"
+authors = ["taaki2311 <taaki.paul@gmail.com>"]
+edition = "2021"
+description = "A library and executable for solving Sudoku"
+repository = "https://github.com/taaki2311/sudoku_solver"
+license = "MIT OR Apache-2.0"
+categories = ["command-line-utilities", "games", "no-std::no-alloc"]
+readme = "README.md"
+
+[lib]
+name = "sudoku_solver"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+disp_array = "0.1.2"
